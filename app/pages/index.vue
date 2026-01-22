@@ -19,7 +19,7 @@
   <section class="w-full py-3 lg:py-6 pl-0 lg:pl-14 lg:flex items-center justify-between gap-16">
     <div class="shrink-0 px-6 lg:px-0">
       <h2 class="font-roboto font-bold text-lg leading-5.5 text-secondary pb-6">Festival for you</h2>
-      <p class="font-roboto text-base leading-5 text-secondary [&_br]:hidden lg:block">
+      <p class="font-roboto text-base leading-5 text-secondary [&_br]:hidden lg:[&_br]:block">
         Explore your favorite<br>
         genres and discover new<br>
         rhythms to love!
