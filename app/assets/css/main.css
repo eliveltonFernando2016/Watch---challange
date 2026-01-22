@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@font-face {
+    font-family: "Axiforma";
+    src: url("../fonts/Axiforma_Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@theme {
+    --font-roboto: "Roboto", sans-serif;
+    --font-AxiForma: "Axiforma", sans-serif;
+
+    --color-primary: #E96744;
+    --color-secondary: #FAFAFA;
+    --color-medium-gray: #3D3D3F;
+    --color-dark-gray: #1E1E22;
+}
+
+@layer components {
+    .menu-item {
+        @apply flex items-center gap-2.5 text-secondary font-roboto font-medium text-base leading-6 tracking-tight cursor-pointer
+    }
+    .button-orange {
+       @apply bg-primary hover:bg-[#B72600] transition-colors rounded-2xl font-roboto text-base font-medium text-secondary min-w-24 min-h-8 flex items-center justify-center gap-2 cursor-pointer
+    }
+}
+
+body {
+    background: #1E1E22;
+}
+
+.bg-header-gradient {
+    background:
+        linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+        linear-gradient(180deg, #2B2B2E 0%, rgba(43, 43, 46, 0.6) 54.69%, rgba(43, 43, 46, 0) 100%)
+}
+.bg-video-gradient {
+    background:
+        linear-gradient(180deg, #1E1E22 0%, rgba(0, 0, 0, 0) 17.2%,
+        rgba(30, 30, 34, 0) 80.45%, #1E1E22 100%)
+}
+.bg-live-gradient {
+    background: linear-gradient(180deg, rgba(61, 61, 63, 0) 5.1%, #3D3D3F 100%)
+}
+
+/* Swipper */
+:root {
+    --swiper-pagination-color: #E96744;
+    --swiper-pagination-bullet-inactive-color: #E96744;
+    --swiper-pagination-bullet-inactive-opacity: 0.4;
+    --swiper-pagination-bullet-size: 12px;
+}
