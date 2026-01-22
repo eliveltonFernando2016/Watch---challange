@@ -2,7 +2,7 @@
   <footer class="w-full px-6 lg:px-14 my-6">
     <hr class="w-full border border-t-medium-gray mb-5">
     <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8 lg:gap-34.5">
-      <p class="font-roboto text-xs leading-5 text-secondary [&_br]:hidden lg:[&_br]:block">
+      <p class="text-xs leading-5 text-secondary [&_br]:hidden lg:[&_br]:block">
         heck the Parental Guidance Rating © 2024 WarnerMedia Direct Latin America, LLC. All rights reserved. Max is used under license.<br>
         © 2024 Globo Comunicação e Participações S.A. All rights reserved. Big Brother Brasil is used under license. The trademarks GLOBO®, TV GLOBO®, GLOBO NEWS®, CANAL BRASIL®, SPORTV®,<br>
         MULTISHOW®, OFF®, GNT®, BIS®, GLOOBINHO®, GLOOB®, VIVA®, MODO VIAGEM®, PREMIERE®, and COMBATE® are properties of Globo Comunicação e Participações S.A.<br>
@@ -12,7 +12,7 @@
       </p>
       <div class="shrink-0">
         <img src="@/assets/img/logo.svg" alt="Logo" class="w-36 flex lg:justify-self-end">
-        <span class="font-roboto text-secondary text-xs float-left mt-7.5">© 2024 Watch Brasil. All rights reserved</span>
+        <span class="text-secondary text-xs float-left mt-7.5">© 2024 Watch Brasil. All rights reserved</span>
       </div>
     </div>
     <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 lg:gap-34.5 mt-10">
@@ -46,7 +46,7 @@
       </div>
     </div>
     <nav class="mt-10">
-      <ul class="font-roboto font-medium text-base text-secondary flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-8 *:underline-offset-4 *:hover:underline">
+      <ul class="font-medium text-base text-secondary flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-8 *:underline-offset-4 *:hover:underline">
         <li>
           <NuxtLink to="/" aria-label="About Labs Festival">About Labs Festival</NuxtLink>
         </li>

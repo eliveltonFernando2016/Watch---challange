@@ -39,11 +39,11 @@
           @click.stop
         >
           <ul class="flex flex-col gap-3">
-            <li class="font-roboto font-medium text-base leading-6 tracking-tight" :aria-label="item.subTitle">
+            <li class="font-medium text-base leading-6 tracking-tight" :aria-label="item.subTitle">
               {{ item.subTitle }}
             </li>
             <li v-for="(subItem, i) in item.subItems" :key="i" :aria-label="item.label">
-              <NuxtLink :to="subItem.link" class="font-roboto font-medium text-base leading-6 tracking-tight w-full float-left">
+              <NuxtLink :to="subItem.link" class="font-medium text-base leading-6 tracking-tight w-full float-left">
                 {{ subItem.label }}
               </NuxtLink>
             </li>

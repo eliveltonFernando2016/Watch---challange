@@ -1,6 +1,6 @@
 <template>
   <section class="w-full py-3 lg:py-6">
-    <h2 class="font-roboto font-bold text-xl lg:text-2xl leading-7 text-secondary px-6 lg:px-14">Line Up</h2>
+    <h2 class="font-bold text-xl lg:text-2xl leading-7 text-secondary px-6 lg:px-14">Line Up</h2>
     <ClientOnly>
       <swiper-container
         :loop="false"
@@ -18,8 +18,8 @@
   </section>
   <section class="w-full py-3 lg:py-6 pl-0 lg:pl-14 lg:flex items-center justify-between gap-16">
     <div class="shrink-0 px-6 lg:px-0">
-      <h2 class="font-roboto font-bold text-lg leading-5.5 text-secondary pb-6">Festival for you</h2>
-      <p class="font-roboto text-base leading-5 text-secondary [&_br]:hidden lg:[&_br]:block">
+      <h2 class="font-bold text-lg leading-5.5 text-secondary pb-6">Festival for you</h2>
+      <p class="text-base leading-5 text-secondary [&_br]:hidden lg:[&_br]:block">
         Explore your favorite<br>
         genres and discover new<br>
         rhythms to love!
@@ -63,7 +63,7 @@
     </div>
   </section>
   <section class="w-full py-3 lg:py-6">
-    <h2 class="font-roboto font-bold text-xl lg:text-2xl lg:leading-7 text-secondary px-6 lg:px-14">In Live</h2>
+    <h2 class="font-bold text-xl lg:text-2xl lg:leading-7 text-secondary px-6 lg:px-14">In Live</h2>
     <ClientOnly>
       <swiper-container
         :loop="false"
@@ -86,7 +86,7 @@
     </ClientOnly>
   </section>
   <section class="w-full py-3 lg:py-6">
-    <h2 class="font-roboto font-bold text-xl lg:text-2xl lg:leading-7 text-secondary px-6 lg:px-14">Yesterday Shows</h2>
+    <h2 class="font-bold text-xl lg:text-2xl lg:leading-7 text-secondary px-6 lg:px-14">Yesterday Shows</h2>
     <ClientOnly>
       <swiper-container
         :loop="false"
@@ -103,7 +103,7 @@
     </ClientOnly>
   </section>
   <section class="w-full py-3 lg:py-6">
-    <h2 class="font-roboto font-bold text-xl lg:text-2xl lg:leading-7 text-secondary px-6 lg:px-14">Exclusive Content</h2>
+    <h2 class="font-bold text-xl lg:text-2xl lg:leading-7 text-secondary px-6 lg:px-14">Exclusive Content</h2>
     <ClientOnly>
       <swiper-container
         :loop="false"
@@ -120,7 +120,7 @@
     </ClientOnly>
   </section>
   <section class="w-full py-3 lg:py-6">
-    <h2 class="font-roboto font-bold text-xl lg:text-2xl lg:leading-7 text-secondary px-6 lg:px-14">Rock Singers</h2>
+    <h2 class="font-bold text-xl lg:text-2xl lg:leading-7 text-secondary px-6 lg:px-14">Rock Singers</h2>
     <ClientOnly>
       <swiper-container
         :loop="false"
@@ -157,7 +157,7 @@
     </div>
   </section>
   <section class="w-full pt-3 lg:pt-6">
-    <h2 class="font-roboto font-bold text-xl lg:text-2xl lg:leading-7 text-secondary px-6 lg:px-14">Watch Again</h2>
+    <h2 class="font-bold text-xl lg:text-2xl lg:leading-7 text-secondary px-6 lg:px-14">Watch Again</h2>
     <ClientOnly>
       <swiper-container
           :loop="false"

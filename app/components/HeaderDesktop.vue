@@ -27,11 +27,11 @@
           @click.stop
         >
           <ul class="flex flex-col gap-3">
-            <li class="font-roboto font-medium text-base leading-6 tracking-tight" :aria-label="item.subTitle">
+            <li class="font-medium text-base leading-6 tracking-tight" :aria-label="item.subTitle">
               {{ item.subTitle }}
             </li>
             <li v-for="(subItem, i) in item.subItems" :key="i" :aria-label="item.label">
-              <NuxtLink :to="subItem.link" class="font-roboto font-medium text-base leading-6 tracking-tight w-full float-left">
+              <NuxtLink :to="subItem.link" class="font-medium text-base leading-6 tracking-tight w-full float-left">
                 {{ subItem.label }}
               </NuxtLink>
             </li>
@@ -43,7 +43,7 @@
       <span class="float-left flex items-center justify-center size-8 rounded-full bg-primary text-white">
         <Icon name="ph:user" />
       </span>
-      <span class="font-roboto font-bold text-secondary text-base leading-5">Peter Parker</span>
+      <span class="font-bold text-secondary text-base leading-5">Peter Parker</span>
       <Icon name="ph:gear" size="16" class="text-white" />
     </button>
   </nav>

@@ -21,15 +21,16 @@
 
 @layer components {
     .menu-item {
-        @apply flex items-center gap-2.5 text-secondary font-roboto font-medium text-base leading-6 tracking-tight cursor-pointer
+        @apply flex items-center gap-2.5 text-secondary font-medium text-base leading-6 tracking-tight cursor-pointer
     }
     .button-orange {
-       @apply bg-primary hover:bg-[#B72600] transition-colors rounded-2xl font-roboto text-base font-medium text-secondary min-w-24 min-h-8 flex items-center justify-center gap-2 cursor-pointer
+       @apply bg-primary hover:bg-[#B72600] transition-colors rounded-2xl text-base font-medium text-secondary min-w-24 min-h-8 flex items-center justify-center gap-2 cursor-pointer
     }
 }
 
 body {
     background: #1E1E22;
+    font-family: 'Roboto', sans-serif;
 }
 
 .bg-header-gradient {
