@@ -6,7 +6,7 @@
           <img src="@/assets/img/logo.svg" alt="Logo">
         </NuxtLink>
       </li>
-      <li v-for="(item, index) in menuItems" :key="index" class="relative" :aria-label="item.label">
+      <li v-for="(item, index) in itemsMenu" :key="index" class="relative" :aria-label="item.label">
         <NuxtLink v-if="item.link !== ''" :to="item.link" class="menu-item">
           <Icon :name="item.icon" />
           {{ item.label }}
@@ -49,64 +49,12 @@
   </nav>
 </template>
 <script setup lang="ts">
-const menuItems = ref<MenuItem[]>([
-  {
-    label: 'Home',
-    link: '/',
-    icon: 'ph:house',
-  },
-  {
-    label: 'Live',
-    link: '/',
-    icon: 'ph:broadcast',
-  },
-  {
-    label: 'Musical Styles',
-    link: '',
-    icon: 'ph:waveform',
-    subTitle: 'Styles:',
-    isOpen: false,
-    subItems: [
-      {
-        label: 'Rock',
-        link: '/',
-      },
-      {
-        label: 'Pop',
-        link: '/',
-      },
-      {
-        label: 'Funk',
-        link: '/',
-      },
-      {
-        label: 'MPB',
-        link: '/',
-      },
-      {
-        label: 'Jazz',
-        link: '/',
-      },
-      {
-        label: 'Trap',
-        link: '/',
-      },
-      {
-        label: 'Rap',
-        link: '/',
-      }
-    ]
-  },
-  {
-    label: 'Exclusive Content',
-    link: '/',
-    icon: 'ph:sparkle',
-  }
-])
+const props = defineProps<({itemsMenu: MenuItem[]})>()
+
 const navRef = ref<HTMLElement | null>(null)
 
 const closeAllMenus = () => {
-  menuItems.value.forEach(item => {
+  props.itemsMenu.forEach(item => {
     if (item.isOpen) item.isOpen = false
   })
 }

@@ -1,6 +1,6 @@
 <template>
-  <section class="w-full py-6">
-    <h2 class="font-roboto font-bold text-2xl leading-7 text-secondary px-14">Line Up</h2>
+  <section class="w-full py-3 lg:py-6">
+    <h2 class="font-roboto font-bold text-xl lg:text-2xl leading-7 text-secondary px-6 lg:px-14">Line Up</h2>
     <ClientOnly>
       <swiper-container
         :loop="false"
@@ -16,17 +16,17 @@
       </swiper-container>
     </ClientOnly>
   </section>
-  <section class="w-full py-6 pl-14 flex items-center justify-between gap-16">
-    <div class="shrink-0">
+  <section class="w-full py-3 lg:py-6 pl-0 lg:pl-14 lg:flex items-center justify-between gap-16">
+    <div class="shrink-0 px-6 lg:px-0">
       <h2 class="font-roboto font-bold text-lg leading-5.5 text-secondary pb-6">Festival for you</h2>
-      <p class="font-roboto text-base leading-5 text-secondary">
+      <p class="font-roboto text-base leading-5 text-secondary [&_br]:hidden lg:block">
         Explore your favorite<br>
         genres and discover new<br>
         rhythms to love!
       </p>
       <button class="button-orange mt-5">See All</button>
     </div>
-    <div class="w-full overflow-hidden">
+    <div class="w-full overflow-hidden mt-6 lg:mt-0">
       <ClientOnly>
         <swiper-container
           :loop="false"
@@ -42,8 +42,8 @@
       </ClientOnly>
     </div>
   </section>
-  <section class="w-full px-14 mt-6">
-    <div class="bg-white px-8 py-6.5">
+  <section class="w-full px-6 lg:px-14 mt-6">
+    <div class="bg-white px-4 lg:px-8 py-3 lg:py-6.5">
       <ClientOnly>
         <swiper-container
           effect="fade"
@@ -62,8 +62,8 @@
       </ClientOnly>
     </div>
   </section>
-  <section class="w-full py-6">
-    <h2 class="font-roboto font-bold text-2xl leading-7 text-secondary px-14">In Live</h2>
+  <section class="w-full py-3 lg:py-6">
+    <h2 class="font-roboto font-bold text-xl lg:text-2xl lg:leading-7 text-secondary px-6 lg:px-14">In Live</h2>
     <ClientOnly>
       <swiper-container
         :loop="false"
@@ -85,8 +85,8 @@
       </swiper-container>
     </ClientOnly>
   </section>
-  <section class="w-full py-6">
-    <h2 class="font-roboto font-bold text-2xl leading-7 text-secondary px-14">Yesterday Shows</h2>
+  <section class="w-full py-3 lg:py-6">
+    <h2 class="font-roboto font-bold text-xl lg:text-2xl lg:leading-7 text-secondary px-6 lg:px-14">Yesterday Shows</h2>
     <ClientOnly>
       <swiper-container
         :loop="false"
@@ -102,8 +102,8 @@
       </swiper-container>
     </ClientOnly>
   </section>
-  <section class="w-full py-6">
-    <h2 class="font-roboto font-bold text-2xl leading-7 text-secondary px-14">Exclusive Content</h2>
+  <section class="w-full py-3 lg:py-6">
+    <h2 class="font-roboto font-bold text-xl lg:text-2xl lg:leading-7 text-secondary px-6 lg:px-14">Exclusive Content</h2>
     <ClientOnly>
       <swiper-container
         :loop="false"
@@ -119,8 +119,8 @@
       </swiper-container>
     </ClientOnly>
   </section>
-  <section class="w-full py-6">
-    <h2 class="font-roboto font-bold text-2xl leading-7 text-secondary px-14">Rock Singers</h2>
+  <section class="w-full py-3 lg:py-6">
+    <h2 class="font-roboto font-bold text-xl lg:text-2xl lg:leading-7 text-secondary px-6 lg:px-14">Rock Singers</h2>
     <ClientOnly>
       <swiper-container
         :loop="false"
@@ -136,8 +136,8 @@
       </swiper-container>
     </ClientOnly>
   </section>
-  <section class="w-full px-14 mt-6">
-    <div class="bg-white px-8 py-6.5">
+  <section class="w-full px-6 lg:px-14 my-6">
+    <div class="bg-white px-4 lg:px-8 py-3 lg:py-6.5">
       <ClientOnly>
         <swiper-container
             effect="fade"
@@ -156,8 +156,8 @@
       </ClientOnly>
     </div>
   </section>
-  <section class="w-full pt-6">
-    <h2 class="font-roboto font-bold text-2xl leading-7 text-secondary px-14">Watch Again</h2>
+  <section class="w-full pt-3 lg:pt-6">
+    <h2 class="font-roboto font-bold text-xl lg:text-2xl lg:leading-7 text-secondary px-6 lg:px-14">Watch Again</h2>
     <ClientOnly>
       <swiper-container
           :loop="false"
